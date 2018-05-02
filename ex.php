@@ -89,7 +89,7 @@
    <div class="container" style="margin-top:100px;">
       <!-- Single button -->
       <div class="btn-group">
-        
+
          <div class="startmneu" style="padding-left:30px; width:1050px;background-color: #E4E4E4 !important;position: absolute;border: 1px solid #ccc;">
             <div class="row">
                <div class="col-lg-2 flmenu flmenu1" align="center">
@@ -163,11 +163,7 @@
                <div class="col-lg-2 flmenu flmenu17" align="center">
                   <span class="glyphicon glyphicon-hdd span-icon"></span><br/>
                   <b>Hard Disk Drive</b>
-               </div>
-               <div class="col-lg-2 flmenu flmenu18" align="center">
-                  <span class="glyphicon glyphicon-phone span-icon"></span><br/>
-                  <b>Mobile</b>
-               </div>
+               </div> 
             </div>
          </div>
       </div>
