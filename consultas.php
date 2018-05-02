@@ -58,10 +58,10 @@ header nav a:hover {
   margin:5px;
   display:block !important;
   padding-top:23px;
-  color:#f5f5f5;
+  color:#fcfcfc;
   }
   .span-icon{ font-size:30px;}
-  .flmenu:hover{ background-color:#f5f5f5 !important; cursor:pointer; color:#CCCCCC;}
+  .flmenu:hover{ background-color:#fcfcfc !important; cursor:pointer; color:#CCCCCC;}
   .flmenu1{
   background-color: #000000;
   }
@@ -150,7 +150,7 @@ header nav a:hover {
         <div class="row">
           <div class="col-lg-2 flmenu2" align="center">
               <span class="glyphicon glyphicon-bell span-icon"></span><br>
-                  <b>SECCIÓN INMOBILIARIA</b>
+                  <a href="buscador.php">SECCIÓN INMOBILIARIA</a>
           </div>
         </div>
       </div>
