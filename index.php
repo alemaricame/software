@@ -4,60 +4,13 @@
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="http://code.jquery.com/jquery-latest.js"></script>
-
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<meta name="description" content="Responsive Retina-Friendly Menu with different, size-dependent layouts" />
-		<meta name="keywords" content="responsive menu, retina-ready, icon font, media queries, css3, transition, mobile" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="../favicon.ico"> 
-		<link rel="stylesheet" type="text/css" href="css/default.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<script src="js/modernizr.custom.js"></script>
-<!-- script del mapa-->
-<script>
-    function initMap() {
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 6
-        });
-        var infoWindow = new google.maps.InfoWindow({map: map});
-
-        // Try HTML5 geolocation.
-        if (navigator.geolocation) {
-          navigator.geolocation.getCurrentPosition(function(position) {
-            var pos = {
-              lat: position.coords.latitude,
-              lng: position.coords.longitude
-            };
-
-            infoWindow.setPosition(pos);
-            infoWindow.setContent('Location found.');
-            map.setCenter(pos);
-          }, function() {
-            handleLocationError(true, infoWindow, map.getCenter());
-          });
-        } else {
-          // Browser doesn't support Geolocation
-          handleLocationError(false, infoWindow, map.getCenter());
-        }
-      }
-
-      function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-        infoWindow.setPosition(pos);
-        infoWindow.setContent(browserHasGeolocation ?
-                              'Error: The Geolocation service failed.' :
-                              'Error: Your browser doesn\'t support geolocation.');
-	}
-</script>
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHdEhRbaKBIl8kNftDz5M3FOEFokUEFYQ&callback=initMap">
-</script>
-
+<link href="http://fastlearning.in/controller/css/css_files/bootstrap.min.css" rel="stylesheet">
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
 <!--ESTILOS-->
 <style type="text/css">
 header {
@@ -145,7 +98,7 @@ header nav a:hover {
 }
 
 .model-1 {
-  background-color: #dadef2;
+  background-color: #0093c9;
   font-size: 30px;
 }
 .model-2{
@@ -167,7 +120,7 @@ footer {
 <header>
 		<div class="wrapper">
 			<div class="logo">LOGO</div>
-			
+
 			<nav>
 				<a class="fa fa-home" href="index.php" >&nbsp;INICIO</a>
 				<a class="fa fa-male" href="logout.php">&nbsp;SALIR</a>

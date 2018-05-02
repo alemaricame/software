@@ -4,17 +4,17 @@
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Responsive Retina-Friendly Menu with different, size-dependent layouts" />
 		<meta name="keywords" content="responsive menu, retina-ready, icon font, media queries, css3, transition, mobile" />
 		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="shortcut icon" href="../favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<script src="js/modernizr.custom.js"></script>
@@ -125,7 +125,7 @@ html{
 <header>
 		<div class="wrapper">
 			<div class="logo">LOGO</div>
-			
+
 			<nav>
 				<a class="fa fa-home" href="index.php">&nbsp;INICIO</a>
 				<a class="fa fa-bars" href="consultas.php">&nbsp;MÉTODOS DE CONSULTA</a>
@@ -143,8 +143,8 @@ html{
 		<section>
             <fieldset>
                 <legend>BÚSQUEDA</legend>
-				SELECCIONAR EL MÉTODO DE BÚSQUEDA 
-			
+				SELECCIONAR EL MÉTODO DE BÚSQUEDA
+
 					<select>
 					<option></option>
 						<option>PROPIETARIO</option>
@@ -157,12 +157,12 @@ html{
                 <!--FOLIO MERCANTIL <input type="text" size="4px"> </input> <input type="text" size="1px" > </input>
 				RFC/CURP <input type="text" size="10px"> </input>-->
             </fieldset>
-           
+
         </section>
 		<!-- INFORMACION GENERAL -->
 		<section>
             <fieldset>
-                
+
 					<legend> DATOS GENERALES </legend>
 						FOLIO REAL <input type="text" size="10px"> </input>
 						CLAVE CATASTRAL<input type="text" size="10px"> </input>
@@ -176,17 +176,17 @@ html{
 						LETRA<input type="text" size="5px"> </input>
 						INTERIOR<input type="text" size="5px"> </input>
 						C.P.<input type="text" size="5px"> </input>
-						MUNICIPIO<input type="text" size="5px"> </input> <input type="text" size="5px"> </input> 
-				
+						MUNICIPIO<input type="text" size="5px"> </input> <input type="text" size="5px"> </input>
+
             </fieldset>
         </section>
 		  <!-- INFORMACION DE SOCIOS -->
 		<section>
             <fieldset>
-                
+
 					<legend>SOCIOS</legend>
 						<p> AQUÍ VA AGREGADO LOS NOMBRES DE LOS SOCIOS</p>
-				
+
             </fieldset>
         </section>
     </form>
