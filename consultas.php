@@ -59,14 +59,15 @@ header nav a:hover {
   display:block !important;
   padding-top:23px;
   color:#fcfcfc;
+
   }
   .span-icon{ font-size:30px;}
   .flmenu:hover{ background-color:#fcfcfc !important; cursor:pointer; color:#CCCCCC;}
   .flmenu1{
-  background-color: #000000;
+  background-color: #fcfcfc;
   }
   .flmenu2{
-  background-color: #00B159;
+  background-color: #00b2ff;
   }
   .flmenu3{
   background-color: #00AEDB;
@@ -126,9 +127,9 @@ header nav a:hover {
   text-transform: uppercase;
   text-decoration: none;
   transition: 0.2s ease;
-  box-shadow:0 1px 6px 0 rgba(0,0,0,.12),0 1px 6px 0 rgba(0,0,0,.12);
+  box-shadow:0 1px 6px 0 #eaeff7,0 1px 6px 0 #eaeff7;
   outline: none!important;}
-  .start-btn:hover{ box-shadow:0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15)}
+  .start-btn:hover{ box-shadow:0 5px 11px 0 #eaeff7,0 4px 15px 0 #eaeff7)}
   .start-btn:active{}
 </style>
 <!-- HEADER -->
@@ -146,10 +147,10 @@ header nav a:hover {
 <body>
   <div class="container" style="margin-top:100px;">
     <div class="btn-group">
-      <div class="startmneu" style="padding-left:30px; width:1050px;background-color: #E4E4E4 !important;position: absolute;border: 1px solid #ccc; ">
+      <div class="startmneu" style="padding-left:30px; width:1050px;background-color: #eaeff7 !important;position: absolute;border: 1px solid #ccc; ">
         <div class="row">
           <div class="col-lg-2 flmenu2" align="center">
-              <span class="glyphicon glyphicon-bell span-icon"></span><br>
+              <span class="glyphicon glyphicon-home span-icon"></span><br>
                   <a href="buscador.php">SECCIÓN INMOBILIARIA</a>
           </div>
         </div>
