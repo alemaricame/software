@@ -4,10 +4,12 @@
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="http://fastlearning.in/controller/css/css_files/bootstrap.min.css" rel="stylesheet">
 <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
 <!--ESTILOS-->
-<style type="text/css">
+<style >
 
 header {
 	width:100%; /* Establecemos que el header abarque el 100% del documento */
@@ -58,79 +60,66 @@ header nav a:hover {
   margin:5px;
   display:block !important;
   padding-top:23px;
-  color:#fcfcfc;
+  color:#ffffff;
 
   }
   .span-icon{ font-size:30px;}
-  .flmenu:hover{ background-color:#fcfcfc !important; cursor:pointer; color:#CCCCCC;}
+  .flmenu:hover{ background-color:#ffffff !important; cursor:pointer; color:#ffffff}
   .flmenu1{
   background-color: #fcfcfc;
+
   }
   .flmenu2{
   background-color: #00b2ff;
+  height:30%;
+  width: 30%;
   }
   .flmenu3{
   background-color: #00AEDB;
+  height:30%;
+  width: 30%;
   }
   .flmenu4{
   background-color: #F37735;
+  height:30%;
+  width: 30%;
   }
   .flmenu5{
   background-color: #EC098C;
+  height:30%;
+  width: 30%;
   }
   .flmenu6{
   background-color: #314E6C;
+  height:30%;
+  width: 30%;
   }
   .flmenu7{
   background-color: #44A5AC;
+  height:30%;
+  width: 30%;
   }
   .flmenu8{
   background-color: #297E83;
+  height:30%;
+  width: 30%;
   }
   .flmenu9{
   background-color:#CC3366;
+  height:30%;
+  width: 30%;
   }
   .flmenu10{
   background-color: #C9312C;
+  height:30%;
+  width: 30%;
   }
   .flmenu11{
   background-color:#6699CC;
+  height:30%;
+  width: 30%;
   }
-  .flmenu12{
-  background-color: #7C4199;
-  }
-  .flmenu13{
-  background-color: #FFC425;
-  }
-  .flmenu14{
-  background-color: #034A8C;
-  }
-  .flmenu15{
-  background-color: #E59B18;
-  }
-  .flmenu16{
-  background-color: #006054;
-  }
-  .flmenu17{
-  background-color: #44A5AC;
-  }
-  .flmenu18{
-  background-color: #336797;
-  }
-  .flmenu19{
-  background-color: #3B3E45;
-  }
-  .start-btn{ osition: relative;
-  padding: 8px 30px;
-  border: 0;
-  border-radius:1px !important;
-  text-transform: uppercase;
-  text-decoration: none;
-  transition: 0.2s ease;
-  box-shadow:0 1px 6px 0 #eaeff7,0 1px 6px 0 #eaeff7;
-  outline: none!important;}
-  .start-btn:hover{ box-shadow:0 5px 11px 0 #eaeff7,0 4px 15px 0 #eaeff7)}
-  .start-btn:active{}
+
 </style>
 <!-- HEADER -->
 <header>
@@ -145,18 +134,58 @@ header nav a:hover {
 </header>
 <!-- FIN DE HEADER -->
 <body>
-  <div class="container" style="margin-top:100px;">
+<div class="container" style="margin-top:100px;">
     <div class="btn-group">
-      <div class="startmneu" style="padding-left:30px; width:1050px;background-color: #eaeff7 !important;position: absolute;border: 1px solid #ccc; ">
+      <div class="startmneu" style="padding-left:auto; width:1050px;background-color: #ffffff !important;position: absolute;border: 1px  #ccc; ">
         <div class="row">
           <div class="col-lg-2 flmenu2" align="center">
               <span class="glyphicon glyphicon-home span-icon"></span><br>
                   <a href="buscador.php">SECCIÓN INMOBILIARIA</a>
           </div>
+          <div class="col-lg-2 flmenu3" align="center" style: "color:#ffffff">
+              <span class="glyphicon glyphicon-user span-icon"></span><br>
+                  <a href="#">SECCIÓN DE PERSONAS MORALES</a>
+          </div>
+          <div class="col-lg-2 flmenu4" align="center" style: "color:#ffffff">
+              <span class="glyphicon glyphicon-user span-icon"></span><br>
+                  <a href="#">SECCIÓN DE VIENES Y MUEBLES</a>
+          </div>
+        <div class="col-lg-2 flmenu5" align="center" style: "color:#ffffff">
+            <span class="glyphicon glyphicon-user span-icon"></span><br>
+                <a href="#">SECCIÓN AGRÍCOLA</a>
+        </div>
+        <div class="col-lg-2 flmenu6" align="center" style: "color:#ffffff">
+            <span class="glyphicon glyphicon-user span-icon"></span><br>
+                <a href="#">DESARROLLO URBANO</a>
+        </div>
+        </div>
+        <div class="row">
+
+          <div class="col-lg-2 flmenu7" align="center" style: "color:#ffffff">
+              <span class="glyphicon glyphicon-user span-icon"></span><br>
+                  <a href="#">GRAVAMENES POR PARTIDA DE PRIMERA</a>
+          </div>
+          <div class="col-lg-2 flmenu8" align="center" style: "color:#ffffff">
+              <span class="glyphicon glyphicon-user span-icon"></span><br>
+                  <a href="#">GRAVAMENES POR PARTIDA DE SEGUNDA</a>
+          </div>
+          <div class="col-lg-2 flmenu9" align="center" style: "color:#ffffff">
+              <span class="glyphicon glyphicon-user span-icon"></span><br>
+                  <a href="#">SEGUIMIENTO DE TRÁMITES</a>
+          </div>
+          <div class="col-lg-2 flmenu10" align="center" style: "color:#ffffff">
+              <span class="glyphicon glyphicon-user span-icon"></span><br>
+                  <a href="#">BÚSQUEDA DE IMÁGENES DE PARTIDAS</a>
+          </div>
+          <div class="col-lg-2 flmenu11" align="center" style: "color:#ffffff">
+              <span class="glyphicon glyphicon-user span-icon"></span><br>
+                  <a href="#">BÚSQUEDA DE IMÁGENES DE FOLIOS</a>
+          </div>
         </div>
       </div>
     </div>
   </div>
+
       <!--
       <body>
    <div class="container" style="margin-top:100px;">
