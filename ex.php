@@ -10,16 +10,17 @@
    height: 100px!important;
    margin:5px;
    display:block !important;
-   padding-top:23px;
+   padding-top:10px;
    color:#f5f5f5;
    }
-   .span-icon{ font-size:30px;}
+   .span-icon{ font-size:40px;}
    .flmenu:hover{ background-color:#f5f5f5 !important;  color:#CCCCCC;}
    .flmenu1{
    background-color: #000000;
    }
    .flmenu2{
    background-color: #00B159;
+
    }
    .flmenu3{
    background-color: #00AEDB;
@@ -79,18 +80,18 @@
 
    text-decoration: none;
    transition: 0.2s ease;
-   box-shadow:0 1px 6px 0 rgba(0,0,0,.12),0 1px 6px 0 rgba(0,0,0,.12);
+   box-shadow:0 1px 5px 0 rgba(0,0,0,.12),0 1px 5px 0 rgba(0,0,0,.12);
    outline: none!important;}
 
 </style>
 </head>
 <body>
    <!-- Single button -->
-   <div class="container" style="margin-top:100px;">
+   <div class="container" style="margin-top:200px;">
       <!-- Single button -->
       <div class="btn-group">
 
-         <div class="startmneu" style="padding-left:30px; width:1050px;background-color: #E4E4E4 !important;position: absolute;border: 1px solid #ccc;">
+         <div class="startmneu" style="padding-left:40px; width:950px;background-color: #E4E4E4 !important;position: absolute;border: 1px solid #ccc;">
             <div class="row">
                <div class="col-lg-2 flmenu flmenu1" align="center">
                   <span class="glyphicon glyphicon-bell span-icon"></span><br/>
@@ -112,64 +113,33 @@
                   <span class="glyphicon glyphicon-print span-icon"></span><br/>
                   <b>Printer</b>
                </div>
-               <div class="col-lg-2 flmenu flmenu6" align="center">
-                  <span class="glyphicon glyphicon-camera span-icon"></span><br/>
-                  <b>Camera</b>
-               </div>
-            </div>
             <div class="row">
-               <div class="col-lg-2 flmenu flmenu7" align="center">
+               <div class="col-lg-2 flmenu flmenu6" align="center">
                   <span class="glyphicon glyphicon-facetime-video span-icon"></span><br/>
                   <b>Video</b>
                </div>
-               <div class="col-lg-2 flmenu flmenu8" align="center">
+               <div class="col-lg-2 flmenu flmenu7" align="center">
                   <span class="glyphicon glyphicon-picture span-icon"></span><br/>
                   <b>Pictures</b>
                </div>
-               <div class="col-lg-2 flmenu flmenu9" align="center">
+               <div class="col-lg-2 flmenu flmenu8" align="center">
                   <span class="glyphicon glyphicon-gift span-icon"></span><br/>
                   <b>Gift</b>
                </div>
-               <div class="col-lg-2 flmenu flmenu10" align="center">
+               <div class="col-lg-2 flmenu flmenu9" align="center">
                   <span class="glyphicon glyphicon-bullhorn span-icon"></span><br/>
                   <b>BullHorn</b>
                </div>
-               <div class="col-lg-2 flmenu flmenu11" align="center">
+               <div class="col-lg-2 flmenu flmenu10" align="center">
                   <span class="glyphicon glyphicon-compressed span-icon"></span><br/>
                   <b>Compressed</b>
                </div>
-               <div class="col-lg-2 flmenu flmenu12" align="center">
-                  <span class="glyphicon glyphicon-phone-alt span-icon"></span><br/>
-                  <b>Telphone</b>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-lg-2 flmenu flmenu13" align="center">
-                  <span class="glyphicon glyphicon-briefcase span-icon"></span><br/>
-                  <b>Briefcase</b>
-               </div>
-               <div class="col-lg-2 flmenu flmenu14" align="center">
-                  <span class="glyphicon glyphicon-volume-off span-icon"></span><br/>
-                  <b>Volumne off</b>
-               </div>
-               <div class="col-lg-2 flmenu flmenu15" align="center">
-                  <span class="glyphicon glyphicon-lock span-icon"></span><br/>
-                  <b>Lock</b>
-               </div>
-               <div class="col-lg-2 flmenu flmenu16" align="center">
-                  <span class="glyphicon glyphicon-plane span-icon"></span><br/>
-                  <b>Aeroplane</b>
-               </div>
-               <div class="col-lg-2 flmenu flmenu17" align="center">
-                  <span class="glyphicon glyphicon-hdd span-icon"></span><br/>
-                  <b>Hard Disk Drive</b>
-               </div> 
-            </div>
          </div>
       </div>
    </div>
 
-
+</div>
+</div>
   <script type="text/javascript" src="http://fastlearning.in/controller/js//jquery-1.11.0.min"></script>
  <script src="http://fastlearning.in/controller/js/bootstrap.min.js" type="text/javascript"></script>
 </body>

@@ -54,30 +54,30 @@ header nav a:hover {
 	border-radius:50px;
 }
 /*BARRA DE BUSCADOR*/
-body{ background-color:#ccc;}
+body{ background-color:#fff;}
 .flmenu{
-width: 160px!important;
-height: 100px!important;
+width: 200px!important;
+height: 200px!important;
 margin:5px;
 display:block !important;
 padding-top:23px;
-color:#f5f5f5;
+color:#ffff;
 }
 span-icon{ font-size:30px;}
-.flmenu:hover{ background-color:#f5f5f5 !important;  color:#f5f5f5;}
+.flmenu:hover{ background-color:#ffff !important;  color:#ffff;}
 .flmenu{
   width: 160px!important;
-  height: 100px!important;
-  margin:5px;
+  height: 160px!important;
+  margin:10px;
   display:block !important;
-  padding-top:23px;
+  padding-top:25px;
   color:#ffff;
 
   }
   .span-icon{ font-size:30px;}
   .flmenu:hover{ background-color:#ffffff !important; cursor:pointer; color:#ffffff;height: 30%;}
   .flmenu1{
-  background-color: #fcfcfc;
+  background-color: #00b2ff;
 
   }
   .flmenu2{
@@ -116,7 +116,7 @@ span-icon{ font-size:30px;}
   width: 20%;
   }
   .flmenu10{
-  background-color: #C9312C;
+  background-color: #911612;
   width: 20%;
   }
   .flmenu11{
@@ -146,56 +146,63 @@ span-icon{ font-size:30px;}
 </header>
 <!-- FIN DE HEADER -->
 <body>
-<div class="container" style="margin-top:100px;">
-    <div class="btn-group">
-      <div class="startmneu" style="padding-left:auto; width:1050px;background-color: #ffffff !important;position: absolute;border: 1px  #ccc; ">
-        <div class="row">
-          <div class="col-lg-2 flmenu2" align="center">
-              <span class="glyphicon glyphicon-home span-icon"></span><br>
-                  <a href="buscador.php">SECCIÓN INMOBILIARIA</a>
-          </div>
-          <div class="col-lg-2 flmenu3" align="center" style: "color:#ffffff">
-              <span class="glyphicon glyphicon-user span-icon"></span><br>
-                  <a href="#">SECCIÓN DE PERSONAS MORALES</a>
-          </div>
-          <div class="col-lg-2 flmenu4" align="center" style: "color:#ffffff">
-              <span class="glyphicon glyphicon-user span-icon"></span><br>
-                  <a href="#">SECCIÓN DE VIENES Y MUEBLES</a>
-          </div>
-        <div class="col-lg-2 flmenu5" align="center" style: "color:#ffffff">
-            <span class="glyphicon glyphicon-user span-icon"></span><br>
-                <a href="#">SECCIÓN AGRÍCOLA</a>
-        </div>
-        <div class="col-lg-2 flmenu6" align="center" style: "color:#ffffff">
-            <span class="glyphicon glyphicon-user span-icon"></span><br>
-                <a href="#">DESARROLLO URBANO</a>
-        </div>
-        </div>
-        <div class="row">
+   <!-- Single button -->
+   <div class="container" style="margin: auto auto;">
+      <!-- Single button -->
+      <div class="btn-group">
 
-          <div class="col-lg-2 flmenu7" align="center" style: "color:#ffffff">
-              <span class="glyphicon glyphicon-user span-icon"></span><br>
-                  <a href="#">GRAVAMENES POR PARTIDA DE PRIMERA</a>
-          </div>
-          <div class="col-lg-2 flmenu8" align="center" style: "color:#ffffff">
-              <span class="glyphicon glyphicon-user span-icon"></span><br>
-                  <a href="#">GRAVAMENES POR PARTIDA DE SEGUNDA</a>
-          </div>
-          <div class="col-lg-2 flmenu9" align="center" style: "color:#ffffff">
-              <span class="glyphicon glyphicon-user span-icon"></span><br>
-                  <a href="#">SEGUIMIENTO DE TRÁMITES</a>
-          </div>
-          <div class="col-lg-2 flmenu10" align="center" style: "color:#ffffff">
-              <span class="glyphicon glyphicon-user span-icon"></span><br>
-                  <a href="#">BÚSQUEDA DE IMÁGENES DE PARTIDAS</a>
-          </div>
-          <div class="col-lg-2 flmenu11" align="center" style: "color:#ffffff">
-              <span class="glyphicon glyphicon-user span-icon"></span><br>
-                  <a href="#">BÚSQUEDA DE IMÁGENES DE FOLIOS</a>
-          </div>
-        </div>
+         <div class="startmneu" style="padding-left:auto; width:1000px;background-color: #ffffff !important;position: absolute;border: 1px #ccc;">
+            <div class="row">
+               <div class="col-lg-2 flmenu flmenu10" align="center" >
+
+                  <span class="glyphicon glyphicon-home span-icon"></span><br/>
+                  <a href="buscador.php" style="color:#fff">SECCIÓN INMOBILIARIA</a>
+               </div>
+               <div class="col-lg-2 flmenu flmenu9" align="center">
+                  <span class="glyphicon glyphicon-user span-icon"></span><br/>
+                  <a href="#" style="color:#fff">SECCIÓN DE PERSONAS MORALES</a>
+               </div>
+               <div class="col-lg-2 flmenu flmenu8" align="center">
+                  <span class="glyphicon glyphicon-info-sign span-icon"></span><br/>
+                  <a href="#" style="color:#fff">SECCIÓN DE BIENES Y MUEBLES</a>
+               </div>
+               <div class="col-lg-2 flmenu flmenu7" align="center">
+                  <span class="glyphicon glyphicon-leaf span-icon"></span><br/>
+                  <a href="#" style="color:#fff">SECCIÓN AGRÍCOLA</a>
+               </div>
+               <div class="col-lg-2 flmenu flmenu6" align="center">
+                  <span class="glyphicon glyphicon-road span-icon"></span><br/>
+                  <a href="#" style="color:#fff">DESARROLLO URBANO</a>
+               </div>
+
+            <div class="row">
+               <div class="col-lg-2 flmenu flmenu6" align="center">
+                  <span class="glyphicon glyphicon-inbox span-icon"></span><br/>
+                  <a href="#" style="color:#fff">GRAVAMENES POR PARTIDA DE PRIMERA</a>
+               </div>
+               <div class="col-lg-2 flmenu flmenu7" align="center">
+                  <span class="glyphicon glyphicon-list-alt span-icon"></span><br/>
+                  <a href="#" style="color:#fff">GRAVAMENES POR PARTIDA DE SEGUNDA</a>
+               </div>
+               <div class="col-lg-2 flmenu flmenu8" align="center">
+                  <span class="glyphicon glyphicon-folder-open span-icon"></span><br/>
+                  <a href="#" style="color:#fff">SEGUIMIENTO DE TRÁMITES</a>
+               </div>
+               <div class="col-lg-2 flmenu flmenu9" align="center">
+                  <span class="glyphicon glyphicon-tasks span-icon"></span><br/>
+                  <a href="#" style="color:#fff">BÚSQUEDA DE IMÁGENES DE PARTIDAS</a>
+               </div>
+               <div class="col-lg-2 flmenu flmenu10" align="center">
+                  <span class="glyphicon glyphicon-tasks span-icon"></span><br/>
+                <a href="#" style="color:#fff">BÚSQUEDA DE IMÁGENES DE FOLIOS</a>
+               </div>
+         </div>
       </div>
-    </div>
-  </div>
+   </div>
+
+</div>
+</div>
+  <script type="text/javascript" src="http://fastlearning.in/controller/js//jquery-1.11.0.min"></script>
+ <script src="http://fastlearning.in/controller/js/bootstrap.min.js" type="text/javascript"></script>
 </body>
 </html>
