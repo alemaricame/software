@@ -143,11 +143,13 @@ html{
 		<section>
             <fieldset>
                 <legend>BÚSQUEDA</legend>
+  <!--se le asigna un name al formulario de contacto.-->
+  <form action="<?=$_SERVER['PHP_SELF']?>" method="post" name="buscar">
 				SELECCIONAR EL MÉTODO DE BÚSQUEDA
 
 					<select>
 					<option></option>
-						<option>PROPIETARIO</option>
+						<option name="propietario">PROPIETARIO</option>
 						<option>UBICACIÓN</a>
 						<option>CLAVE CATASTRAL</option>
 						<option>FOLIO</option>
