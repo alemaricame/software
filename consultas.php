@@ -151,7 +151,7 @@ span-icon{ font-size:30px;}
       <!-- Single button -->
       <div class="btn-group">
 
-         <div class="startmneu" style="padding-left:150px; padding-right: 150px;width:1000px;background-color: #ffffff !important;position: absolute;border: 1px #ccc;">
+         <center><div class="startmneu" style="width:1050px;background-color: #ffffff !important;position: absolute;border: 1px #ccc;">
             <div class="row">
                <div class="col-lg-2 flmenu flmenu10" align="center" >
 
@@ -175,7 +175,7 @@ span-icon{ font-size:30px;}
                   <a href="#" style="color:#fff">DESARROLLO URBANO</a>
                </div>
 
-            <div class="row">
+
                <div class="col-lg-2 flmenu flmenu6" align="center">
                   <span class="glyphicon glyphicon-inbox span-icon"></span><br/>
                   <a href="#" style="color:#fff">GRAVAMENES POR PARTIDA DE PRIMERA</a>
@@ -196,7 +196,7 @@ span-icon{ font-size:30px;}
                   <span class="glyphicon glyphicon-tasks span-icon"></span><br/>
                 <a href="#" style="color:#fff">BÚSQUEDA DE IMÁGENES DE FOLIOS</a>
                </div>
-         </div>
+
       </div>
    </div>
 
