@@ -151,7 +151,7 @@ span-icon{ font-size:30px;}
       <!-- Single button -->
       <div class="btn-group">
 
-         <div class="startmneu" style="padding-left:auto; width:1000px;background-color: #ffffff !important;position: absolute;border: 1px #ccc;">
+         <div class="startmneu" style="padding-left:150px; padding-right: 150px;width:1000px;background-color: #ffffff !important;position: absolute;border: 1px #ccc;">
             <div class="row">
                <div class="col-lg-2 flmenu flmenu10" align="center" >
 
