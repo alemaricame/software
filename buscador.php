@@ -1,7 +1,7 @@
 <?php
    include('session.php');
 ?>
-//dkcjoidscjdiosc
+
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
@@ -109,10 +109,7 @@ header nav a:hover {
   width: 35%;
   margin:0;
 }
-html{
-	font-size:11PX;
-	font-family:"sans-serif";
-}
+
 /*MAPA*/
 #map {
         height: 500px;
@@ -138,63 +135,60 @@ html{
 <!-- FIN DE HEADER -->
 <body>
 
-<div id="buscador";
-    <form >
+<div id="buscador">
         <!-- MOTOR DE BUSQUEDA -->
 		<section>
             <fieldset>
-                <legend>BÚSQUEDA</legend>
+                <legend><strong>BÚSQUEDA</strong></legend>
+                SELECCIONAR EL MÉTODO DE BÚSQUEDA
   <!--se le asigna un name al formulario de contacto.-->
   <form action="<?=$_SERVER['PHP_SELF']?>" method="post" name="buscar">
-				SELECCIONAR EL MÉTODO DE BÚSQUEDA
+    <input type="radio" name="Conocido" value="Google" id="Conocido_0" onclick="mostrarReferencia();" /> PROPIETARIO
+    <input type="radio" name="Conocido" value="Otros" id="Conocido_1" onclick="mostrarReferencia();" /> UBICACIÓN
+    <input type="radio" name="Conocido" value="Otros" id="Conocido_2" onclick="mostrarReferencia();" /> CLAVE CATASTRAL
+    <input type="radio" name="Conocido" value="Otros" id="Conocido_3" onclick="mostrarReferencia();" /> FOLIO
+    <input type="radio" name="Conocido" value="Otros" id="Conocido_4" onclick="mostrarReferencia();" /> PARTIDA
+    <br><input type="radio" name="Conocido" value="Otros" id="Conocido_5" onclick="mostrarReferencia();" /> TESTADORES
+</fieldset>
+</section>
+<section>
+  <fieldset>
+    <legend><strong>MÉTODOS DE BÚSQUEDA</strong></legend>
+          <!--div PROPIETARIO-->
+          <div id="prop" style="display:none;">
+            NOMBRE <input type="text" name="otro" class="input" />
+          </div>
+          <!-- DIV UBICACIÓN-->
+          <div id="ubi" style="display:none;">
+            COLONIA <input type="text" class="input"/>
+            CALLE <input type="text" class="input"/>
+            NO. EXT. <input type="text" class="input"/>
+            NO. INT. <input type="text" class="input"/>
+            LETRA <input type="text" class="input"/>
+            LOTE <input type="text" class="input"/>
+            MANZANA <input type="text" class="input"/>
+          </div>
+  </fieldset>
+</section>
 
-					<select>
-					<option></option>
-						<option name="propietario">PROPIETARIO</option>
-						<option>UBICACIÓN</a>
-						<option>CLAVE CATASTRAL</option>
-						<option>FOLIO</option>
-						<option>PARTIDA</option>
-						<option>TESTADOR</option>
-					</select>
-                <!--FOLIO MERCANTIL <input type="text" size="4px"> </input> <input type="text" size="1px" > </input>
-				RFC/CURP <input type="text" size="10px"> </input>-->
-            </fieldset>
+    <!--funcion javascript en la cabecera del documento-->
+<script type="text/javascript">
+function mostrarReferencia(){
+    //Si la opcion con id Conocido_1 (dentro del documento > formulario con name fcontacto >     y a la vez dentro del array de Conocido) esta activada
+if (document.buscar.Conocido[1].checked == true) {
+    //muestra (cambiando la propiedad display del estilo) el div con id 'desdeotro'
+    document.getElementById('prop').style.display='none';
+    //por el contrario, si no esta seleccionada
+  }else{
+    if(document.buscar.Conocido[2].checked=="true"){
+      document.getElementById('prop').style.display='block';
+    document.getElementById('ubi').style.display='none';
 
-        </section>
-		<!-- INFORMACION GENERAL -->
-		<section>
-            <fieldset>
-
-					<legend> DATOS GENERALES </legend>
-						FOLIO REAL <input type="text" size="10px"> </input>
-						CLAVE CATASTRAL<input type="text" size="10px"> </input>
-						LOTE<input type="text" size="10px"> </input>
-						<BR>MANZANA<input type="text" size="10px"> </input>
-						ETAPA<input type="text" size="10px"> </input>
-						ZONA<input type="text" size="10px"> </input>
-						TIPO VIALIDAD<input type="text" size="10px"> </input>
-						VIALIDAD<input type="text" size="10px"> </input>
-						NÚMERO<input type="text" size="5px"> </input>
-						LETRA<input type="text" size="5px"> </input>
-						INTERIOR<input type="text" size="5px"> </input>
-						C.P.<input type="text" size="5px"> </input>
-						MUNICIPIO<input type="text" size="5px"> </input> <input type="text" size="5px"> </input>
-
-            </fieldset>
-        </section>
-		  <!-- INFORMACION DE SOCIOS -->
-		<section>
-            <fieldset>
-
-					<legend>SOCIOS</legend>
-						<p> AQUÍ VA AGREGADO LOS NOMBRES DE LOS SOCIOS</p>
-
-            </fieldset>
-        </section>
-    </form>
+  }
+  }
+}
+</script>
 </div>
-
 <!--MAPA -->
    <div id="map"></div>
 
