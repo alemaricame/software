@@ -129,10 +129,6 @@ header nav a:hover {
 		margin:0;
 		overflow:hidden;
 }
-#ta {
-		padding-left: 25px;
-    padding-right: 25px;
-}
 </style>
 <!-- HEADER -->
 <header>
@@ -158,7 +154,9 @@ header nav a:hover {
   <!--div PROPIETARIO-->
     <button type="button" class="btn btn-info" data-toggle="collapse" data-parent="accordion" href="#prop">PROPIETARIO</button>
     <div id="prop" class="panel-collapse collapse on">
-      NOMBRE <input type="text" name="otro" class="input" />
+      <p>NOMBRE <input type="text" name="otro" class="input" /> <button type="button" href="#">BUSCAR</button></p>
+      <input type="text" name="otro" class="input" />
+      <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/soft/software/tabla_registro.php'">VER MÁS</button>
     </div>
 
     <!-- DIV UBICACIÓN-->
@@ -171,72 +169,288 @@ header nav a:hover {
         LETRA <input type="text" class="input"/>
         LOTE <input type="text" class="input"/>
         MANZANA <input type="text" class="input"/>
+      <p>  <button type="button" href="#">BUSCAR</button></p>
+      <table class="table" style="padding:5px">
+
+          <!--Table head-->
+          <thead class="blue-grey darken-4">
+              <tr class="text-white">
+                  <th>FOLIO</th>
+                  <th>CLASIFICACIÓN</th>
+                  <th>UBICACIÓN</th>
+              </tr>
+          </thead>
+          <!--Table head-->
+
+          <!--Table body-->
+          <tbody>
+              <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+              </tr>
+              <tr>
+                  <th scope="row">2</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+              </tr>
+              <tr>
+                  <th scope="row">3</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+
+
+              </tr>
+          </tbody>
+          <!--Table body-->
+
+      </table>
+      <!--Table-->
+      <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/soft/software/tabla_registro.php'">BUSCAR</button>
+      <!--Table head-->
+          <table class="table" style="padding:5px">
+      <thead class="blue-grey darken-4">
+          <tr class="text-white">
+              <th>PAR</th>
+              <th>LIB</th>
+              <th>TOM</th>
+              <th>SER</th>
+              <th>UBICACIÓN</th>
+          </tr>
+      </thead>
+      <!--Table head-->
+
+      <!--Table body-->
+      <tbody>
+          <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>Mark</td>
+              <td>Otto</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>Mark</td>
+            <td>Otto</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>Mark</td>
+            <td>Otto</td>
+
+
+          </tr>
+      </tbody>
+      <!--Table body-->
+
+  </table>
+  <!--Table-->
+      <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/soft/software/tabla_registro.php'">BUSCAR</button>
       </div>
 
       <!--DIV DE CLAVE CATASTRAL -->
       <button type="button" class="btn btn-cyan" data-toggle="collapse" href="#clave">CLAVE CATASTRAL</button>
     <div id="clave" class="panel-collapse collapse on">
-      CLAVE CATASTRAL <input type="text" class="input"/>
+      CLAVE CATASTRAL <input type="text" class="input"/> <button type="button" onClick="location.href='http://localhost/soft/software/tabla_registro.php'">BUSCAR</button>
+      <table class="table" style="padding:5px">
+
+          <!--Table head-->
+          <thead class="blue-grey darken-4">
+              <tr class="text-white">
+                  <th>FOLIO</th>
+                  <th>CLASIFICACIÓN</th>
+                  <th>UBICACIÓN</th>
+              </tr>
+          </thead>
+          <!--Table head-->
+
+          <!--Table body-->
+          <tbody>
+              <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+              </tr>
+              <tr>
+                  <th scope="row">2</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+              </tr>
+              <tr>
+                  <th scope="row">3</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+
+
+              </tr>
+          </tbody>
+          <!--Table body-->
+
+      </table>
+      <!--Table-->
+      <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/soft/software/tabla_registro.php'">BUSCAR</button>
+      <!--Table head-->
+          <table class="table" style="padding:5px">
+      <thead class="blue-grey darken-4">
+          <tr class="text-white">
+              <th>PAR</th>
+              <th>LIB</th>
+              <th>TOM</th>
+              <th>SER</th>
+              <th>UBICACIÓN</th>
+          </tr>
+      </thead>
+      <!--Table head-->
+
+      <!--Table body-->
+      <tbody>
+          <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>Mark</td>
+              <td>Otto</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>Mark</td>
+            <td>Otto</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>Mark</td>
+            <td>Otto</td>
+
+
+          </tr>
+      </tbody>
+      <!--Table body-->
+
+  </table>
+  <!--Table-->
+      <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/soft/software/tabla_registro.php'">BUSCAR</button>
     </div>
 
     <!--DIV DE FOLIO -->
     <button type="button" class="btn btn-mdb-color" data-toggle="collapse" href="#folio">FOLIO</button>
     <div id="folio" class="collapse">
-      FOLIO <input type="text" class="input"/>
-    </div>
+      FOLIO <input type="text" class="input"/> <button type="button" href="#">BUSCAR</button>
+    <table class="table" style="padding:5px">
+
+        <!--Table head-->
+        <thead class="blue-grey darken-4">
+            <tr class="text-white">
+                <th>FOLIO</th>
+                <th>CLASIFICACIÓN</th>
+                <th>UBICACIÓN</th>
+            </tr>
+        </thead>
+        <!--Table head-->
+
+        <!--Table body-->
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Mark</td>
+                <td>Otto</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Mark</td>
+                <td>Otto</td>
 
 
+            </tr>
+        </tbody>
+        <!--Table body-->
+
+    </table>
+    <!--Table-->
+    <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/soft/software/tabla_registro.php'">BUSCAR</button>
+</div>
       <!-- DIV DE PARTIDA -->
       <button type="button" class="btn btn-unique" data-toggle="collapse" href="#partida">PARTIDA</button>
       <div id="partida" class="collapse">
-        PARTIDA <input type="text" class="input"/>
+        PARTIDA <input type="text" size="1px"class="input"/> LIBRO <input type="text" size="1px"class="input"/>
+        TOMO  <input type="text" size="1px"class="input"/> SERIE  <input type="text" size="1px"class="input"/> <button type="button" href="#">BUSCAR</button>
+        <!--Table head-->
+            <table class="table" style="padding:5px">
+        <thead class="blue-grey darken-4">
+            <tr class="text-white">
+                <th>PAR</th>
+                <th>LIB</th>
+                <th>TOM</th>
+                <th>SER</th>
+                <th>UBICACIÓN</th>
+            </tr>
+        </thead>
+        <!--Table head-->
+
+        <!--Table body-->
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>Mark</td>
+                <td>Otto</td>
+            </tr>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>Mark</td>
+              <td>Otto</td>
+            </tr>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>Mark</td>
+              <td>Otto</td>
+
+
+            </tr>
+        </tbody>
+        <!--Table body-->
+
+    </table>
+    <!--Table-->
+        <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/soft/software/tabla_registro.php'">BUSCAR</button>
+
       </div>
 
       <!-- DIV DE TESTADORES -->
       <button type="button" class="btn btn-indigo" data-toggle="collapse" href="#testa">TESTADORES</button>
       <div id="testa" class="collapse">
-        TESTADOR <input type="text" class="input"/>
+        TESTADOR <input type="text" class="input"/> <button type="button"onClick="location.href='http://localhost/soft/software/tabla_registro.php'">BUSCAR</button>
+        <input type="text" name="otro" class="input" />
+        <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/soft/software/tabla_registro.php'">VER MÁS</button>
       </div>
 
 
   </p>
-<strong>BÚSQUEDA</strong><br>
-<p>FOLIO REAL <input type="text" class="input"/>
-CLAVE CATASTRAL <input type="text" class="input"/></p>
-<p>NOMBRE <input type="text" class="input"/>
-CONSTA DE <input type="text" class="input"/></p>
-<p>ETAPA <input type="text" class="input"/>
-MANZANA <input type="text" class="input"/></p>
-<p>MUNICIPIO <input type="text" size="1px" class="input"/> <input type="text" class="input"/>
-UBICACIÓN <input type="text" class="input"/></p>
-<p>LOTE <input type="text" class="input"/>
-ZONA <input type="text" class="input"/></p>
-<p>TIPO VIALIDAD <input type="text" class="input"/>
-VIALIDAD <input type="text" class="input"/></p>
-<p>NÚMERO <input type="text" size="1px"class="input"/>
-LETRA <input type="text" size="1px" class="input"/>
-INTERIOR <input type="text" size="1px" class="input"/>
-C.P. <input type="text" size="2px" class="input"/></p>
-<p>USO DE SUELO <input type="text" class="input"/>
-ÁREA DE TERRENO <input type="text" size="3px"class="input"/></p>
-<p>ÁREA DE CONSTRUCCIÓN <input type="text" class="input"/></p>
-<p>MEDIDAS Y COLINDANCIAS <input type="text" class="input"/></p>
+
+
 
 <button type="button" class="btn btn-brown darken-4">PROPIETARIOS</button>
 <button type="button" class=" btn btn-brown darken-4">ANT PARTIDA</button>
 <button type="button" class="btn btn-brown darken-4">ANT FOLIO</button>
 
-
-<p>  <button type="button" class="btn btn-light-green">CONSULTAR ACTO</button>
-  <button type="button" class="btn btn-light-green">VER IMAGEN</button>
-  <button type="button" class="btn btn-light-green">VER PLANO</button>
-  <button type="button" class="btn btn-light-green">OBSERVACIONES</button>
-  <button type="button" class="btn btn-light-green">BITACORA DE SEGUIMIENTO</button>
-  <button type="button" class="btn btn-light-green">CANCELADA POR</button>
-  <button type="button" class="btn btn-light-green">ACTOS AFECTADOS / ANTECEDENTES</button>
-  <button type="button" class="btn btn-light-green">IDENTIFICACIÓN DEL DOCUMENTO</button>
-  <button type="button" class="btn btn-light-green">CALIFICACIÓN FISCAL</button>
-</p>
 
 
 
@@ -252,110 +466,7 @@ C.P. <input type="text" size="2px" class="input"/></p>
    <div id="map"></div>
 
 
-<div id="ta" >
-   <!--Table-->
-   <br><br><br>
-   <table class="table" style="padding:5px">
 
-       <!--Table head-->
-       <thead class="mdb-color darken-3">
-           <tr class="text-white">
-             <th></th>
-             <th></th>
-             <th>TODOS</th>
-             <th></th>
-             <th>REGISTRO</th>
-             <th></th>
-             <th></th>
-             <th>CONTROL</th>
-             <th></th>
-             <th></th>
-             <th></th>
-             <th></th>
-             <th>INSCRIPCIÓN / ANOTACIÓN EN OTROS FOLIOS</th>
-             <th></th>
-             <th></th>
-           </tr>
-       </thead>
-       <thead class="blue-grey darken-4">
-           <tr class="text-white">
-               <th>T</th>
-               <th>CSC. OPE.</th>
-               <th>CSC. HIST.</th>
-               <th>ACTOS</th>
-               <th>FECHA</th>
-               <th>HORA</th>
-               <th>NÚM</th>
-               <th>AÑO</th>
-               <th>I/A</th>
-               <th>IMG</th>
-               <th>LOTE</th>
-               <th>MANZANA</th>
-               <th>UBICACIÓN</th>
-               <th>FOLIO</th>
-               <th>+</th>
-           </tr>
-       </thead>
-       <!--Table head-->
-
-       <!--Table body-->
-       <tbody>
-           <tr>
-               <th scope="row">1</th>
-               <td>Mark</td>
-               <td>Otto</td>
-               <td>@mdo</td>
-               <td>Mark</td>
-               <td>Otto</td>
-               <td>@mdo</td>
-               <td>Mark</td>
-               <td>Otto</td>
-               <td>@mdo</td>
-               <td>Mark</td>
-               <td>Otto</td>
-               <td>@mdo</td>
-               <td>Mark</td>
-               <td>Otto</td>
-           </tr>
-           <tr>
-               <th scope="row">2</th>
-               <td>Mark</td>
-               <td>Otto</td>
-               <td>@mdo</td>
-               <td>Mark</td>
-               <td>Otto</td>
-               <td>@mdo</td>
-               <td>Mark</td>
-               <td>Otto</td>
-               <td>@mdo</td>
-               <td>Mark</td>
-               <td>Otto</td>
-               <td>@mdo</td>
-               <td>Mark</td>
-               <td>Otto</td>
-           </tr>
-           <tr>
-               <th scope="row">3</th>
-               <td>Mark</td>
-               <td>Otto</td>
-               <td>@mdo</td>
-               <td>Mark</td>
-               <td>Otto</td>
-               <td>@mdo</td>
-               <td>Mark</td>
-               <td>Otto</td>
-               <td>@mdo</td>
-               <td>Mark</td>
-               <td>Otto</td>
-               <td>@mdo</td>
-               <td>Mark</td>
-               <td>Otto</td>
-           </tr>
-       </tbody>
-       <!--Table body-->
-
-   </table>
-   <!--Table-->
  </div>
 
 </body>

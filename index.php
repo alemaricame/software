@@ -163,19 +163,19 @@ span-icon{ font-size:30px;}
                </div>
                <div class="col-lg-2 flmenu flmenu9" align="center">
                   <span class="glyphicon glyphicon-user span-icon"></span><br/>
-                  <a href="#" style="color:#fff">SECCIÓN DE PERSONAS MORALES</a>
+                  <a href="morales.php" style="color:#fff">SECCIÓN DE PERSONAS MORALES</a>
                </div>
                <div class="col-lg-2 flmenu flmenu8" align="center">
                   <span class="glyphicon glyphicon-info-sign span-icon"></span><br/>
-                  <a href="#" style="color:#fff">SECCIÓN DE BIENES Y MUEBLES</a>
+                  <a href="bienesymuebles.php" style="color:#fff">SECCIÓN DE BIENES Y MUEBLES</a>
                </div>
                <div class="col-lg-2 flmenu flmenu7" align="center">
                   <span class="glyphicon glyphicon-leaf span-icon"></span><br/>
-                  <a href="#" style="color:#fff">SECCIÓN AGRÍCOLA</a>
+                  <a href="agricola.php" style="color:#fff">SECCIÓN AGRÍCOLA</a>
                </div>
                <div class="col-lg-2 flmenu flmenu6" align="center">
                   <span class="glyphicon glyphicon-road span-icon"></span><br/>
-                  <a href="#" style="color:#fff">DESARROLLO URBANO</a>
+                  <a href="desarrollo_u.php" style="color:#fff">DESARROLLO URBANO</a>
                </div>
 
 
