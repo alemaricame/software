@@ -1,18 +1,17 @@
 <?php
    include('session.php');
 ?>
+
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="http://code.jquery.com/jquery-latest.js"></script>
 <link href="http://fastlearning.in/controller/css/css_files/bootstrap.min.css" rel="stylesheet">
-  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
 <!--ESTILOS-->
-<style type="text/css">
+<style >
+
 header {
 	width:100%; /* Establecemos que el header abarque el 100% del documento */
 	overflow:hidden; /* Eliminamos errores de float */
@@ -56,65 +55,84 @@ header nav a:hover {
 	border-radius:50px;
 }
 /*BARRA DE BUSCADOR*/
-#buscador {
-  float: left;
-  width: 35%;
-  margin:0;
+body{ background-color:#fff;}
+.flmenu{
+width: 200px!important;
+height: 200px!important;
+margin:5px;
+display:block !important;
+padding-top:23px;
+color:#ffff;
 }
+span-icon{ font-size:30px;}
+.flmenu:hover{ background-color:#ffff !important;  color:#ffff;}
+.flmenu{
+  width: 160px!important;
+  height: 160px!important;
+  margin:10px;
+  display:block !important;
+  padding-top:25px;
+  color:#ffff;
 
-/*==============++++================*/
-.menu {
-  height: 200px;
-  width: 200px;
-  position: relative;
-  margin: auto;
-  padding-top: 100px;
-  border: 15px solid transparent;
-  -moz-border-radius: 100%;
-  -webkit-border-radius: 100%;
-  border-radius: 100%;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  cursor: pointer;
-  color: #fff;
-}
+  }
+  .span-icon{ font-size:30px;}
+  .flmenu:hover{ background-color:#ffffff !important; cursor:pointer; color:#ffffff;height: 30%;}
+  .flmenu1{
+  background-color: #00b2ff;
 
-.bar {
-  height: 15px;
-  width: 100px;
-  display: block;
-  margin: 100px auto;
-  position: relative;
-  background-color: rgv(25,25,25);
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  -moz-transition: 0.4s;
-  -o-transition: 0.4s;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
+  }
+  .flmenu2{
+  background-color: #00b2ff;
+  width: 20%;
 
-.model-1 {
-  background-color: #0093c9;
-  font-size: 30px;
-}
-.model-2{
-	background-color: #bebfc4;
-	font-size: 30px;
-}
+  }
+  .flmenu3{
+  background-color: #00AEDB;
+  width: 20%;
 
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  height: 70px;
-  background-color: rgb(27, 54, 71);
-  width: 100%;
-  color: #fff;
-}
+  }
+  .flmenu4{
+  background-color: #F37735;
+  width: 20%;
+
+  }
+  .flmenu5{
+  background-color: #EC098C;
+  width: 20%;
+  }
+  .flmenu6{
+  background-color: #314E6C;
+  width: 20%;
+  }
+  .flmenu7{
+  background-color: #44A5AC;
+  width: 20%;
+  }
+  .flmenu8{
+  background-color: #297E83;
+  width: 20%;
+  }
+  .flmenu9{
+  background-color:#CC3366;
+  width: 20%;
+  }
+  .flmenu10{
+  background-color: #911612;
+  width: 20%;
+  }
+  .flmenu11{
+  background-color:#6699CC;
+  width: 20%;
+  }
+  .start-btn{ position: relative;
+  padding: 8px 30px;
+  border: 0;
+  border-radius:1px !important;
+
+  text-decoration: none;
+  transition: 0.2s ease;
+  box-shadow:0 1px 6px 0 rgba(0,0,0,.12),0 1px 6px 0 rgba(0,0,0,.12);
+  outline: none!important;}
 </style>
 <!-- HEADER -->
 <header>
@@ -122,31 +140,72 @@ footer {
 			<div class="logo">LOGO</div>
 
 			<nav>
-				<a class="fa fa-home" href="index.php" >&nbsp;INICIO</a>
+				<a class="fa fa-home" href="index.php">&nbsp;INICIO</a>
 				<a class="fa fa-male" href="logout.php">&nbsp;SALIR</a>
 			</nav>
 		</div>
 </header>
-<br><br><br>
+
 <!-- FIN DE HEADER -->
-<body>
 
-<div>
+  <body>
+   <!-- Single button -->
+   <div class="container" style="margin: auto auto;">
+      <!-- Single button -->
+      <div class="btn-group">
 
-<section class="mod model-1">
-  <div class="menu">
-   <a href="consultas.php">CONSULTAS</a>
-  </div>
-</section>
-<section class="mod model-2">
-  <div class="menu">
-  <a href="#">UTILERIAS</a>
-  </div>
-</section>
+         <center><div class="startmneu" style="width:1050px;background-color: #ffffff !important;position: absolute;border: 1px #ccc;">
+            <div class="row">
+               <div class="col-lg-2 flmenu flmenu10" align="center" >
+
+                  <span class="glyphicon glyphicon-home span-icon"></span><br/>
+                  <a href="buscador.php" style="color:#fff">SECCIÓN INMOBILIARIA</a>
+               </div>
+               <div class="col-lg-2 flmenu flmenu9" align="center">
+                  <span class="glyphicon glyphicon-user span-icon"></span><br/>
+                  <a href="#" style="color:#fff">SECCIÓN DE PERSONAS MORALES</a>
+               </div>
+               <div class="col-lg-2 flmenu flmenu8" align="center">
+                  <span class="glyphicon glyphicon-info-sign span-icon"></span><br/>
+                  <a href="#" style="color:#fff">SECCIÓN DE BIENES Y MUEBLES</a>
+               </div>
+               <div class="col-lg-2 flmenu flmenu7" align="center">
+                  <span class="glyphicon glyphicon-leaf span-icon"></span><br/>
+                  <a href="#" style="color:#fff">SECCIÓN AGRÍCOLA</a>
+               </div>
+               <div class="col-lg-2 flmenu flmenu6" align="center">
+                  <span class="glyphicon glyphicon-road span-icon"></span><br/>
+                  <a href="#" style="color:#fff">DESARROLLO URBANO</a>
+               </div>
+
+
+               <div class="col-lg-2 flmenu flmenu10" align="center">
+                  <span class="glyphicon glyphicon-inbox span-icon"></span><br/>
+                  <a href="#" style="color:#fff">GRAVAMENES POR PARTIDA DE PRIMERA</a>
+               </div>
+               <div class="col-lg-2 flmenu flmenu9" align="center">
+                  <span class="glyphicon glyphicon-list-alt span-icon"></span><br/>
+                  <a href="#" style="color:#fff">GRAVAMENES POR PARTIDA DE SEGUNDA</a>
+               </div>
+               <div class="col-lg-2 flmenu flmenu8" align="center">
+                  <span class="glyphicon glyphicon-folder-open span-icon"></span><br/>
+                  <a href="#" style="color:#fff">SEGUIMIENTO DE TRÁMITES</a>
+               </div>
+               <div class="col-lg-2 flmenu flmenu7" align="center">
+                  <span class="glyphicon glyphicon-tasks span-icon"></span><br/>
+                  <a href="#" style="color:#fff">BÚSQUEDA DE IMÁGENES DE PARTIDAS</a>
+               </div>
+               <div class="col-lg-2 flmenu flmenu6" align="center">
+                  <span class="glyphicon glyphicon-tasks span-icon"></span><br/>
+                <a href="#" style="color:#fff">BÚSQUEDA DE IMÁGENES DE FOLIOS</a>
+               </div>
+
+      </div>
+   </div>
+
 </div>
-
+</div>
+  <script type="text/javascript" src="http://fastlearning.in/controller/js//jquery-1.11.0.min"></script>
+ <script src="http://fastlearning.in/controller/js/bootstrap.min.js" type="text/javascript"></script>
 </body>
-<footer>
-<center>CONTACTO
-</footer>
 </html>
