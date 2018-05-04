@@ -44,13 +44,14 @@
 								</div><!-- /cbp-hrsub-inner -->
 							</div><!-- /cbp-hrsub -->
 						</li>
-						<li>
-							<a href="#">SALIR</a>
-						</li>
+
 					</ul>
 				</nav>
 			</div>
 		</div>
+		<li>
+			<a href="logout.php">SALIR</a>
+		</li>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="js/cbpHorizontalMenu.min.js"></script>
 		<script>

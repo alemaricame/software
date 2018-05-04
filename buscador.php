@@ -55,26 +55,26 @@
 <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHdEhRbaKBIl8kNftDz5M3FOEFokUEFYQ&callback=initMap">
 </script>
-
 <!--ESTILOS-->
 <style>
-/*MAPA*/
-#map {
-    height: 1050px;
-    width: 75%;
-		float: right;
-		margin:0;
-		overflow:hidden;
+      /*MAPA*/
+  #map {
+      height: 1050px;
+      width: 75%;
+  		float: right;
+  		margin:0;
+  		overflow:hidden;
 
-}
-body{
-  background-color:#EFEFEF;
-}
-#buscador {
-  float: left;
-  width: 25%;
-  margin:0;
-}
+  }
+  body{
+    background-color:#EFEFEF;
+  }
+  #buscador {
+    float: left;
+    width: 25%;
+    margin:0;
+    overflow:hidden;
+  }
 </style>
 <!-- HEADER -->
 <body >
@@ -101,12 +101,6 @@ body{
     });
   </script>
 <br><br>
-<div id="buscador">
-<CENTER> INGRESE EL NOMBRE <input type="text"/> <button type="button" class="btn btn-default btn-sm" style="background-color:#fff;">
-          <span class="glyphicon glyphicon-search"></span> BUSCAR
-        </button>
- </div>
-
 <div id="map">
  <div class="row-fluid">
    <div class="span8">
@@ -119,5 +113,23 @@ body{
    </div>
  </div>
 </div>
+
+<center><div id="buscador">
+<button type="button" class="btn btn-default" style="background-color:#37474f; color:#ffff"> PROPIETARIO </button>
+
+<button type="button" class="btn btn-default" style="background-color:#37474f; color:#ffff"> UBICACIÓN </button>
+
+<button type="button" class="btn btn-default" style="background-color:#37474f; color:#ffff"> CLAVE CATASTRAL </button>
+
+<button type="button" class="btn btn-default" style="background-color:#37474f; color:#ffff"> FOLIO </button>
+
+<button type="button" class="btn btn-default" style="background-color:#37474f; color:#ffff"> PARTIDA </button>
+
+<button type="button" class="btn btn-default" style="background-color:#37474f; color:#ffff"> TESTADORES </button>
+
+</div>
+<p><CENTER> INGRESE EL NOMBRE <input type="text"/></p> <p><button type="button" class="btn btn-default btn-sm" style="background-color:#fff;">
+          <span class="glyphicon glyphicon-search"></span> BUSCAR
+        </button></p>
 </body>
 </html>

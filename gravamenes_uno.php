@@ -3,24 +3,24 @@
 ?>
   <!DOCTYPE html>
   <html>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="http://code.jquery.com/jquery-latest.js"></script>
-  <link href="http://fastlearning.in/controller/css/css_files/bootstrap.min.css" rel="stylesheet">
-  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.min.css" />
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.min.css" />
- 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.min.js"></script>
+  <meta name="description" content="Blueprint: Horizontal Drop-Down Menu" />
+  <meta name="keywords" content="horizontal menu, microsoft menu, drop-down menu, mega menu, javascript, jquery, simple menu" />
+  <meta name="author" content="Codrops" />
+  <link rel="shortcut icon" href="../favicon.ico">
+  <link rel="stylesheet" type="text/css" href="SO/css/default.css" />
+  <link rel="stylesheet" type="text/css" href="SO/css/component.css" />
+  <script src="SO/js/modernizr.custom.js"></script>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
   <!--ESTILOS-->
   <style type="text/css">
+<<<<<<< HEAD
     header {
       width: 100%;
       /* Establecemos que el header abarque el 100% del documento */
@@ -160,9 +160,41 @@
       right: -15px;
     }
     
+=======
+  body{
+    background-color:#EFEFEF;
+  }
+>>>>>>> 1c5b464d3f779ea4d6590f2262631701e2c97e56
   </style>
 
   <body>
+
+    <div class="container">
+
+      <div class="main">
+        <nav id="cbp-hrmenu" class="cbp-hrmenu">
+          <ul>
+            <li>
+              <a href="index.php">INICIO</a>
+            </li>
+            <li>
+              <a href="logout.php">SALIR</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <script>
+      $(function() {
+        cbpHorizontalMenu.init();
+      });
+    </script>
+
+
+    <!-- body -->
+    <br>
     <form>
       <div class="container">
         <div class="panel panel-default">
@@ -357,14 +389,14 @@
                     <td>@twitter</td>
                     <td>@twitter</td>
                   </tr>
-                
+
                 </tbody>
                 <!--Table body-->
 
               </table>
 
             </div>
-            
+
             <div class="panel-heading">UBICACION</div>
             <div class="row-fluid">
               <div class="span8">
@@ -372,13 +404,13 @@
               </div>
 
               <div class="span4">
-              
+
     		</address>
               </div>
             </div>
           </div>
         </div>
-      
+
               <div  id="demo2" class="panel panel-default collapse"  >
           <div class="panel-heading">ANTECEDENTES</div>
           <div class="panel-body">
@@ -444,14 +476,14 @@
                     <td>@twitter</td>
                     <td>@twitter</td>
                   </tr>
-                
+
                 </tbody>
                 <!--Table body-->
 
               </table>
 
             </div>
-            
+
           </div>
         </div>
       </div>

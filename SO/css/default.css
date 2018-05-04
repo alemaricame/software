@@ -40,7 +40,7 @@ body {
 }
 
 a {
-	color: #f0f0f0;
+	color: #000000;
 	text-decoration: none;
 }
 
@@ -132,7 +132,7 @@ a:hover {
 }
 
 .container > header nav a:hover:before {
-	color: #fff;
+	color: #000000;
 }
 
 .icon-drop:before {
