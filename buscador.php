@@ -156,7 +156,7 @@ header nav a:hover {
     <div id="prop" class="panel-collapse collapse on">
       <p>NOMBRE <input type="text" name="otro" class="input" /> <button type="button" href="#">BUSCAR</button></p>
       <input type="text" name="otro" class="input" />
-      <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/soft/software/tabla_registro.php'">VER MÁS</button>
+      <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/software/tabla_registro.php'">VER MÁS</button>
     </div>
 
     <!-- DIV UBICACIÓN-->
@@ -206,7 +206,7 @@ header nav a:hover {
 
       </table>
       <!--Table-->
-      <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/soft/software/tabla_registro.php'">BUSCAR</button>
+      <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/software/tabla_registro.php'">BUSCAR</button>
       <!--Table head-->
           <table class="table" style="padding:5px">
       <thead class="blue-grey darken-4">
@@ -250,13 +250,13 @@ header nav a:hover {
 
   </table>
   <!--Table-->
-      <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/soft/software/tabla_registro.php'">BUSCAR</button>
+      <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/software/tabla_registro.php'">BUSCAR</button>
       </div>
 
       <!--DIV DE CLAVE CATASTRAL -->
       <button type="button" class="btn btn-cyan" data-toggle="collapse" href="#clave">CLAVE CATASTRAL</button>
     <div id="clave" class="panel-collapse collapse on">
-      CLAVE CATASTRAL <input type="text" class="input"/> <button type="button" onClick="location.href='http://localhost/soft/software/tabla_registro.php'">BUSCAR</button>
+      CLAVE CATASTRAL <input type="text" class="input"/> <button type="button" onClick="location.href='http://localhost/software/tabla_registro.php'">BUSCAR</button>
       <table class="table" style="padding:5px">
 
           <!--Table head-->
@@ -293,7 +293,7 @@ header nav a:hover {
 
       </table>
       <!--Table-->
-      <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/soft/software/tabla_registro.php'">BUSCAR</button>
+      <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/software/tabla_registro.php'">BUSCAR</button>
       <!--Table head-->
           <table class="table" style="padding:5px">
       <thead class="blue-grey darken-4">
@@ -337,7 +337,7 @@ header nav a:hover {
 
   </table>
   <!--Table-->
-      <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/soft/software/tabla_registro.php'">BUSCAR</button>
+      <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/software/tabla_registro.php'">BUSCAR</button>
     </div>
 
     <!--DIV DE FOLIO -->
@@ -380,7 +380,7 @@ header nav a:hover {
 
     </table>
     <!--Table-->
-    <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/soft/software/tabla_registro.php'">BUSCAR</button>
+    <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/software/tabla_registro.php'">BUSCAR</button>
 </div>
       <!-- DIV DE PARTIDA -->
       <button type="button" class="btn btn-unique" data-toggle="collapse" href="#partida">PARTIDA</button>
@@ -430,16 +430,16 @@ header nav a:hover {
 
     </table>
     <!--Table-->
-        <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/soft/software/tabla_registro.php'">BUSCAR</button>
+        <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/software/tabla_registro.php'">BUSCAR</button>
 
       </div>
 
       <!-- DIV DE TESTADORES -->
       <button type="button" class="btn btn-indigo" data-toggle="collapse" href="#testa">TESTADORES</button>
       <div id="testa" class="collapse">
-        TESTADOR <input type="text" class="input"/> <button type="button"onClick="location.href='http://localhost/soft/software/tabla_registro.php'">BUSCAR</button>
+        TESTADOR <input type="text" class="input"/> <button type="button"onClick="location.href='http://localhost/software/tabla_registro.php'">BUSCAR</button>
         <input type="text" name="otro" class="input" />
-        <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/soft/software/tabla_registro.php'">VER MÁS</button>
+        <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/software/tabla_registro.php'">VER MÁS</button>
       </div>
 
 

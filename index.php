@@ -181,11 +181,11 @@ span-icon{ font-size:30px;}
 
                <div class="col-lg-2 flmenu flmenu10" align="center">
                   <span class="glyphicon glyphicon-inbox span-icon"></span><br/>
-                  <a href="#" style="color:#fff">GRAVAMENES POR PARTIDA DE PRIMERA</a>
+                  <a href="gravamenes_uno.php" style="color:#fff">GRAVAMENES POR PARTIDA DE PRIMERA</a>
                </div>
                <div class="col-lg-2 flmenu flmenu9" align="center">
                   <span class="glyphicon glyphicon-list-alt span-icon"></span><br/>
-                  <a href="#" style="color:#fff">GRAVAMENES POR PARTIDA DE SEGUNDA</a>
+                  <a href="gravamenes_dos.php" style="color:#fff">GRAVAMENES POR PARTIDA DE SEGUNDA</a>
                </div>
                <div class="col-lg-2 flmenu flmenu8" align="center">
                   <span class="glyphicon glyphicon-folder-open span-icon"></span><br/>
@@ -193,11 +193,11 @@ span-icon{ font-size:30px;}
                </div>
                <div class="col-lg-2 flmenu flmenu7" align="center">
                   <span class="glyphicon glyphicon-tasks span-icon"></span><br/>
-                  <a href="#" style="color:#fff">BÚSQUEDA DE IMÁGENES DE PARTIDAS</a>
+                  <a href="busqueda-img.php" style="color:#fff">BÚSQUEDA DE IMÁGENES DE PARTIDAS</a>
                </div>
                <div class="col-lg-2 flmenu flmenu6" align="center">
                   <span class="glyphicon glyphicon-tasks span-icon"></span><br/>
-                <a href="#" style="color:#fff">BÚSQUEDA DE IMÁGENES DE FOLIOS</a>
+                <a href="busqueda-img.php" style="color:#fff">BÚSQUEDA DE IMÁGENES DE FOLIOS</a>
                </div>
 
       </div>
