@@ -4,40 +4,21 @@
 
 <!DOCTYPE html>
 <html>
-
-<meta charset="UTF-8">
+<meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="http://code.jquery.com/jquery-latest.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<!-- Font Awesome -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- Bootstrap core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<!-- Material Design Bootstrap -->
-<link href="css/mdb.min.css" rel="stylesheet">
-<!-- Your custom styles (optional) -->
-<link href="css/style.css" rel="stylesheet">
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<meta name="description" content="Blueprint: Horizontal Drop-Down Menu" />
+<meta name="keywords" content="horizontal menu, microsoft menu, drop-down menu, mega menu, javascript, jquery, simple menu" />
+<meta name="author" content="Codrops" />
+<link rel="shortcut icon" href="../favicon.ico">
+<link rel="stylesheet" type="text/css" href="SO/css/default.css" />
+<link rel="stylesheet" type="text/css" href="SO/css/component.css" />
+<script src="SO/js/modernizr.custom.js"></script>
 
 
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="Responsive Retina-Friendly Menu with different, size-dependent layouts" />
-		<meta name="keywords" content="responsive menu, retina-ready, icon font, media queries, css3, transition, mobile" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="../favicon.ico">
-		<link rel="stylesheet" type="text/css" href="css/default.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<script src="js/modernizr.custom.js"></script>
 <!-- script del mapa-->
 <script>
     function initMap() {
@@ -77,173 +58,73 @@
 
 <!--ESTILOS-->
 <style>
-header {
-	width:100%; /* Establecemos que el header abarque el 100% del documento */
-	overflow:hidden; /* Eliminamos errores de float */
-	background:rgb(27, 54, 71);
-	margin-bottom:20px;
-}
-.wrapper {
-	width:90%; /* ancho 90% */
-	max-width:auto;
-	margin:auto; /* Centramos los elementos */
-	overflow:hidden; /* Eliminamos errores de float */
-}
-header .logo {
-	color:#fcfcfc;
-	font-size:30px;
-	line-height:100px; /* posicion del logo (centrado) */
-	float:left;
-}
-header nav {
-	float:right;
-	line-height:100px;
-}
-header nav a {
-	display:inline-block;
-	color:#fff;
-	text-decoration:none;
-	padding:10px 20px;
-	line-height:100px;
-	font-size:12px;
-	-webkit-transition:all 500ms ease;
-	-o-transition:all 500ms ease;
-	transition:all 500ms ease;
-}
-header nav a:hover {
-	background:#ff9205;
-	border-radius:50px;
-}
-/*BARRA DE BUSCADOR*/
-#buscador {
-  float: left;
-  width: 35%;
-  margin:0;
-  padding-left:90px;
-}
 /*MAPA*/
 #map {
-    height: 800px;
-    width: 65%;
+    height: 1050px;
+    width: 75%;
 		float: right;
 		margin:0;
 		overflow:hidden;
+
+}
+body{
+  background-color:#EFEFEF;
+}
+#buscador {
+  float: left;
+  width: 25%;
+  margin:0;
+  overflow:hidden;
 }
 </style>
 <!-- HEADER -->
-<header>
-		<div class="wrapper">
-			<div class="logo">LOGO</div>
+<body >
+  <div class="container">
 
-			<nav>
-				<a class="fa fa-home" href="index.php">&nbsp;INICIO</a>
-				<a class="fa fa-male" href="logout.php">&nbsp;SALIR</a>
-			</nav>
-		</div>
-</header>
+    <div class="main">
+      <nav id="cbp-hrmenu" class="cbp-hrmenu">
+        <ul>
+          <li>
+            <a href="index.php">INICIO</a>
+          </li>
+          <li>
+            <a href="logout.php">SALIR</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-<!-- FIN DE HEADER -->
-<body>
+  <script>
+    $(function() {
+      cbpHorizontalMenu.init();
+    });
+  </script>
+<br><br>
+<div id="map">
+ <div class="row-fluid">
+   <div class="span8">
+     <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=15+Springfield+Way,+Hythe,+CT21+5SH&aq=t&sll=52.8382,-2.327815&sspn=8.047465,13.666992&ie=UTF8&hq=&hnear=15+Springfield+Way,+Hythe+CT21+5SH,+United+Kingdom&t=m&z=14&ll=51.077429,1.121722&output=embed"></iframe>
+   </div>
 
-<div id="buscador">
-        <!-- MOTOR DE BUSQUEDA -->
-                <legend><strong>BÚSQUEDA</strong></legend>
-                SELECCIONAR EL MÉTODO DE BÚSQUEDA
-  <!--se le asigna un name al formulario de contacto.-->
-  <p>
-      <!-- DIV DE folio -->
-      <button type="button" class="btn btn-unique" data-toggle="collapse" href="#partida">FOLIO</button>
-      <div id="partida" class="collapse">
-        FOLIO <input type="text" size="5px"class="input"/> <button type="button" href="#">BUSCAR</button>
-        <!--Table head-->
-          <P>  <table class="table" style="padding:5px">
-        <thead class="blue-grey darken-4">
-            <tr class="text-white">
-                <th>FOLIO</th>
-                <th>RAZÓN SOCIAL</th>
+   <div class="span4">
 
-            </tr>
-        </thead>
-        <!--Table head-->
-
-        <!--Table body-->
-        <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-
-            </tr>
-            <tr>
-              <th scope="row">1</th>
-              <td>Mark</td>
-
-            </tr>
-            <tr>
-              <th scope="row">1</th>
-              <td>Mark</td>
-
-
-
-            </tr>
-        </tbody>
-        <!--Table body-->
-
-    </table>
-</P>
-    <!--Table-->
-        <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/soft/software/tabla_registro.php'">BUSCAR</button>
-</div>
-
-        <p><button type="button" class="btn btn-unique" data-toggle="collapse" href="#social">RAZÓN SOCIAL</button></p>
-        <div id="social" class="collapse">
-          RAZÓN SOCIAL <input type="text" size="5px"class="input"/> <button type="button" href="#">BUSCAR</button>
-          <!--Table head-->
-            <p>  <table class="table" style="padding:5px">
-          <thead class="blue-grey darken-4">
-              <tr class="text-white">
-                  <th>FOLIO</th>
-                  <th>RAZÓN SOCIAL</th>
-              </tr>
-          </thead>
-          <!--Table head-->
-
-          <!--Table body-->
-          <tbody>
-              <tr>
-                  <th scope="row">1</th>
-                  <td>Mark</td>
-
-              </tr>
-              <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-
-              </tr>
-              <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-              </tr>
-          </tbody>
-          <!--Table body-->
-
-        </table>
-        <!--Table--></p>
-          <button type="button" class="btn btn-red darken-4" onClick="location.href='http://localhost/soft/software/tabla_registro.php'">BUSCAR</button>
-
-
-</div>
-
-  </p>
-
-</div>
-<!--MAPA -->
-
-
-   <div id="map"></div>
-
-
-
+ </address>
+   </div>
  </div>
+</div>
 
+<center><div id="buscador">
+<button type="button" class="btn btn-default" style="background-color:#37474f; color:#ffff"> FOLIO </button>
+
+<button type="button" class="btn btn-default" style="background-color:#37474f; color:#ffff"> RAZÓN SOCIAL </button>
+
+
+
+</div>
+<p><center> INGRESE EL FOLIO <input type="text"/></p> <p><button type="button" class="btn btn-default btn-sm" style="background-color:#fff;">
+          <span class="glyphicon glyphicon-search"></span> BUSCAR
+        </button></p>
 </body>
 </html>
