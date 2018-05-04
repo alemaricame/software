@@ -28,7 +28,15 @@
       background: rgb(27, 54, 71);
       margin-bottom: 20px;
     }
-
+    @media (min-width: 1200px){
+      .container {
+        
+         width: 1800px;
+     }
+    }
+    #tallModal .modal-body p { 
+      margin-bottom: 900px 
+      }
     .wrapper {
       width: 90%;
       /* ancho 90% */
@@ -283,7 +291,7 @@
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">PREVIOS GRAVADOS</button>
           <br> <br>
         </div>
-        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"  id="tallModal">
           <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
 

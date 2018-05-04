@@ -39,6 +39,13 @@
       overflow: hidden;
       /* Eliminamos errores de float */
     }
+     @media (min-width: 1200px){
+      .container {
+        
+         width: 1800px;
+     }
+    }
+
 
     header .logo {
       color: #fcfcfc;
@@ -152,6 +159,7 @@
       top: 0;
       right: -15px;
     }
+    
   </style>
 
   <body>
