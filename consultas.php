@@ -178,7 +178,7 @@ span-icon{ font-size:30px;}
             <div class="row">
                <div class="col-lg-2 flmenu flmenu6" align="center">
                   <span class="glyphicon glyphicon-inbox span-icon"></span><br/>
-                  <a href="#" style="color:#fff">GRAVAMENES POR PARTIDA DE PRIMERA</a>
+                  <a href="gravamenes_uno.php" style="color:#fff">GRAVAMENES POR PARTIDA DE PRIMERA</a>
                </div>
                <div class="col-lg-2 flmenu flmenu7" align="center">
                   <span class="glyphicon glyphicon-list-alt span-icon"></span><br/>
