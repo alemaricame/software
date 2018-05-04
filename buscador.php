@@ -46,7 +46,6 @@
           zoom: 6
         });
         var infoWindow = new google.maps.InfoWindow({map: map});
-
         // Try HTML5 geolocation.
         if (navigator.geolocation) {
           navigator.geolocation.getCurrentPosition(function(position) {
@@ -54,7 +53,6 @@
               lat: position.coords.latitude,
               lng: position.coords.longitude
             };
-
             infoWindow.setPosition(pos);
             infoWindow.setContent('Location found.');
             map.setCenter(pos);
@@ -66,7 +64,6 @@
           handleLocationError(false, infoWindow, map.getCenter());
         }
       }
-
       function handleLocationError(browserHasGeolocation, infoWindow, pos) {
         infoWindow.setPosition(pos);
         infoWindow.setContent(browserHasGeolocation ?
@@ -86,26 +83,22 @@ header {
 	background:rgb(27, 54, 71);
 	margin-bottom:20px;
 }
-
 .wrapper {
 	width:90%; /* ancho 90% */
 	max-width:auto;
 	margin:auto; /* Centramos los elementos */
 	overflow:hidden; /* Eliminamos errores de float */
 }
-
 header .logo {
 	color:#fcfcfc;
 	font-size:30px;
 	line-height:100px; /* posicion del logo (centrado) */
 	float:left;
 }
-
 header nav {
 	float:right;
 	line-height:100px;
 }
-
 header nav a {
 	display:inline-block;
 	color:#fff;
@@ -117,7 +110,6 @@ header nav a {
 	-o-transition:all 500ms ease;
 	transition:all 500ms ease;
 }
-
 header nav a:hover {
 	background:#ff9205;
 	border-radius:50px;
@@ -129,7 +121,6 @@ header nav a:hover {
   margin:0;
   padding-left:90px;
 }
-
 /*MAPA*/
 #map {
     height: 800px;
@@ -141,7 +132,6 @@ header nav a:hover {
 #ta {
 		padding-left: 25px;
     padding-right: 25px;
-
 }
 </style>
 <!-- HEADER -->
@@ -151,7 +141,6 @@ header nav a:hover {
 
 			<nav>
 				<a class="fa fa-home" href="index.php">&nbsp;INICIO</a>
-				<a class="fa fa-bars" href="consultas.php">&nbsp;MÉTODOS DE CONSULTA</a>
 				<a class="fa fa-male" href="logout.php">&nbsp;SALIR</a>
 			</nav>
 		</div>
