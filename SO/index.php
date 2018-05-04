@@ -1,5 +1,8 @@
+<?php
+   include('session.php');
+?>
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="es" class="no-js">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -13,33 +16,32 @@
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<script src="js/modernizr.custom.js"></script>
 	</head>
-	<body>
+	<body style="background-color:#EFEFEF;">
 		<div class="container">
 
 			<div class="main">
 				<nav id="cbp-hrmenu" class="cbp-hrmenu">
 					<ul>
 						<li>
-							<a href="index.php">INICIO</a>
+							<a href="#">INICIO</a>
 							<div class="cbp-hrsub">
-							
+								<div class="cbp-hrsub-inner">
 									<div>
 										<h4>OPCIONES DE BÚSQUEDA</h4>
 										<ul>
-											<li><a href="#">SECCIÓN INMOBILIARIA</a></li>
-											<li><a href="#">SECCIÓN DE PERSONAS MORALES</a></li>
-											<li><a href="#">SECCIÓN DE BIENES Y MUEBLES</a></li>
-											<li><a href="#">SECCIÓN AGRÍCOLA</a></li>
-											<li><a href="#">DESARROLLO URBANO</a></li>
-											<li><a href="#">GRAVAMENES POR PARTIDA DE PRIMERA</a></li>
-                      <li><a href="#">GRAVAMENES POR PARTIDA DE SEGUNDA</a></li>
-                      <li><a href="#">SEGUIMIENTO DE TRÁMITES</a></li>
-                      <li><a href="#">BÚSQUEDA DE IMÁGENES POR PARTIDA</a></li>
-                      <li><a href="#">BÚSQUEDA DE IMÁGENES POR FOLIO</a></li>
+											<li><a href="buscador.php">SECCIÓN INMOBILIARIA</a></li>
+	                    <li><a href="morales.php">SECCIÓN DE PERSONAS MORALES</a></li>
+	                    <li><a href="bienesymuebles.php">SECCIÓN DE BIENES Y MUEBLES</a></li>
+	                    <li><a href="#">SECCIÓN AGRÍCOLA</a></li>
+	                    <li><a href="#">DESARROLLO URBANO</a></li>
+	                    <li><a href="#">GRAVAMENES POR PARTIDA DE PRIMERA</a></li>
+	                    <li><a href="#">GRAVAMENES POR PARTIDA DE SEGUNDA</a></li>
+	                    <li><a href="#">SEGUIMIENTO DE TRÁMITES</a></li>
+	                    <li><a href="#">BÚSQUEDA DE IMÁGENES POR PARTIDA</a></li>
+	                    <li><a href="#">BÚSQUEDA DE IMÁGENES POR FOLIO</a></li>
 										</ul>
-
 									</div>
-
+								</div><!-- /cbp-hrsub-inner -->
 							</div><!-- /cbp-hrsub -->
 						</li>
 						<li>
