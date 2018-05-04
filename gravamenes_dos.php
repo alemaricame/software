@@ -7,6 +7,68 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<<<<<<< HEAD
+  <!--ESTILOS-->
+  <style type="text/css">
+    header {
+      width: 100%;
+      /* Establecemos que el header abarque el 100% del documento */
+      overflow: hidden;
+      /* Eliminamos errores de float */
+      background: rgb(27, 54, 71);
+      margin-bottom: 20px;
+    }
+    @media (min-width: 1200px){
+      .container {
+        
+         width: 1800px;
+     }
+    }
+    #tallModal .modal-body p { 
+      margin-bottom: 900px 
+      }
+    .wrapper {
+      width: 90%;
+      /* ancho 90% */
+      max-width: auto;
+      margin: auto;
+      /* Centramos los elementos */
+      overflow: hidden;
+      /* Eliminamos errores de float */
+    }
+
+    header .logo {
+      color: #fcfcfc;
+      font-size: 30px;
+      line-height: 100px;
+      /* posicion del logo (centrado) */
+      float: left;
+    }
+
+    header nav {
+      float: right;
+      line-height: 100px;
+    }
+
+    header nav a {
+      display: inline-block;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      line-height: 100px;
+      font-size: 12px;
+      -webkit-transition: all 500ms ease;
+      -o-transition: all 500ms ease;
+      transition: all 500ms ease;
+    }
+
+    header nav a:hover {
+      background: #ff9205;
+      border-radius: 50px;
+    }
+
+    /*BARRA DE BUSCADOR*/
+=======
   <meta name="description" content="Blueprint: Horizontal Drop-Down Menu" />
   <meta name="keywords" content="horizontal menu, microsoft menu, drop-down menu, mega menu, javascript, jquery, simple menu" />
   <meta name="author" content="Codrops" />
@@ -14,6 +76,7 @@
   <link rel="stylesheet" type="text/css" href="SO/css/default.css" />
   <link rel="stylesheet" type="text/css" href="SO/css/component.css" />
   <script src="SO/js/modernizr.custom.js"></script>
+>>>>>>> 1c5b464d3f779ea4d6590f2262631701e2c97e56
 
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -182,7 +245,7 @@
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">PREVIOS GRAVADOS</button>
           <br> <br>
         </div>
-        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"  id="tallModal">
           <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
 
