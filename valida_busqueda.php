@@ -101,35 +101,42 @@
     });
   </script>
 <br><br>
-<div id="map">
- <div class="row-fluid">
-   <div class="span8">
-     <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=15+Springfield+Way,+Hythe,+CT21+5SH&aq=t&sll=52.8382,-2.327815&sspn=8.047465,13.666992&ie=UTF8&hq=&hnear=15+Springfield+Way,+Hythe+CT21+5SH,+United+Kingdom&t=m&z=14&ll=51.077429,1.121722&output=embed"></iframe>
-   </div>
 
-   <div class="span4">
+  <table class="table" style="padding:5px">
 
- </address>
-   </div>
- </div>
-</div>
+       <!--Table head-->
+       <thead class="blue-grey darken-4">
+           <tr class="text-white">
+               <th>FOLIO</th>
+               <th>CLASIFICACIÓN</th>
+               <th>UBICACIÓN</th>
+           </tr>
+       </thead>
+       <!--Table head-->
 
-<center><div id="buscador">
-<button type="button" class="btn btn-default" style="background-color:#37474f; color:#ffff"> PROPIETARIO </button>
+       <!--Table body-->
+       <tbody>
+           <tr>
+               <th scope="row">1</th>
+               <td>Mark</td>
+               <td>Otto</td>
+           </tr>
+           <tr>
+               <th scope="row">2</th>
+               <td>Mark</td>
+               <td>Otto</td>
+           </tr>
+           <tr>
+               <th scope="row">3</th>
+               <td>Mark</td>
+               <td>Otto</td>
 
-<button type="button" class="btn btn-default" style="background-color:#37474f; color:#ffff"> UBICACIÓN </button>
 
-<button type="button" class="btn btn-default" style="background-color:#37474f; color:#ffff"> CLAVE CATASTRAL </button>
+           </tr>
+       </tbody>
+       <!--Table body-->
 
-<button type="button" class="btn btn-default" style="background-color:#37474f; color:#ffff"> FOLIO </button>
-
-<button type="button" class="btn btn-default" style="background-color:#37474f; color:#ffff"> PARTIDA </button>
-
-<button type="button" class="btn btn-default" style="background-color:#37474f; color:#ffff"> TESTADORES </button>
-
-</div>
-<p><CENTER> INGRESE EL NOMBRE <input type="text"/></p> <p><button type="button" class="btn btn-default btn-sm" style="background-color:#fff;">
-          <span class="glyphicon glyphicon-search"></span> BUSCAR
-        </button></p>
+   </table>
+   <!--Table-->
 </body>
 </html>
