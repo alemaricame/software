@@ -58,22 +58,14 @@
 <!--ESTILOS-->
 <style>
       /*MAPA*/
-  #map {
-      height: 1050px;
-      width: 75%;
-  		float: right;
-  		margin:0;
-  		overflow:hidden;
 
-  }
   body{
     background-color:#EFEFEF;
   }
-  #buscador {
-    float: left;
-    width: 25%;
-    margin:0;
-    overflow:hidden;
+  @media (min-width: 1200px){
+    .container {
+        width: 1700px;
+    }
   }
 </style>
 <!-- HEADER -->
@@ -101,7 +93,7 @@
     });
   </script>
 <br><br>
-
+<body >
   <table class="table" style="padding:5px">
 
        <!--Table head-->

@@ -109,7 +109,7 @@
 
 @media (min-width: 1200px){
   .modal-lg {
-        
+
          width: 1400px;
      }
     }
@@ -353,7 +353,7 @@
 
             </div>
 
-          
+
 
           </div>
         </div>
@@ -369,7 +369,7 @@
               <div class="" id="loginModal">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                 
+
                 </div>
                 <div class="modal-body">
                   <div class="well">
@@ -386,12 +386,12 @@
                       <div class="tab-pane active in" id="login">
                         <br>
                         <div class="form-row">
-                          
+
                           </div>
                       </div>
                       <div class="tab-pane fade" id="create">
                       <div class="form-row">
-                          
+
                           </div>
                       </div>
                     </div>
@@ -410,10 +410,10 @@
 
 <script>
 // Get the modal
-  
+
 function modalOtros() {
    $("#tallModal").modal();
-}  
+}
 
 
 </script>
