@@ -49,6 +49,12 @@
       background: rgb(27, 54, 71);
       margin-bottom: 20px;
     }
+    .modal-header {
+    min-height: 16.43px;
+    padding: 15px;
+    border-bottom: 0px solid #e5e5e5; */
+
+    }
 
     @media (min-width: 1200px) {
       .container {
@@ -269,14 +275,14 @@
                     <th scope="row">1</th>
                     <td>Mark</td>
                     <td>Otto</td>
-                    <td>
+                    <td onclick="modalActos()">
                       <center><i class="fas fa-eye"></center></td>
                     <td>04/05/2018</td>
                     <td>12:00</td>
                     <td>5</td>
                     <td>2010</td>
                     <td>Mark</td>
-                    <td><center><i class="fas fa-image"></i></center>
+                    <td onclick="modalImg()"><center><i class="fas fa-image"></i></center>
                     </td>
                     <td>mdo</td>
                     <td>4</td>
@@ -289,14 +295,14 @@
                     <th scope="row">2</th>
                     <td>Mark</td>
                     <td>Otto</td>
-                    <td>
+                    <td onclick="modalActos()">
                       <center><i class="fas fa-eye"></center></td>
                     <td>04/05/2018</td>
                     <td>12:00</td>
                     <td>5</td>
                     <td>2010</td>
                     <td>Mark</td>
-                    <td><center><i class="fas fa-image"></i></center>
+                    <td onclick="modalImg()"><center><i class="fas fa-image"></i></center>
                     </td>
                     <td>mdo</td>
                     <td>4</td>
@@ -316,7 +322,7 @@
                     <td>5</td>
                     <td>2010</td>
                     <td>Mark</td>
-                    <td><center><i class="fas fa-image"></i></center>
+                    <td onclick="modalImg()"><center><i class="fas fa-image"></i></center>
                     </td>
                     <td>mdo</td>
                     <td>4</td>
@@ -329,14 +335,14 @@
                     <th scope="row">3</th>
                     <td>Mark</td>
                     <td>Otto</td>
-                    <td>
+                    <td onclick="modalActos()">
                       <center><i class="fas fa-eye"></center></td>
                     <td>04/05/2018</td>
                     <td>12:00</td>
                     <td>5</td>
                     <td>2010</td>
                     <td>Mark</td>
-                    <td><center><i class="fas fa-image"></i></center>
+                    <td onclick="modalImg()"><center><i class="fas fa-image"></i></center>
                     </td>
                     <td>mdo</td>
                     <td>4</td>
@@ -352,7 +358,18 @@
               </table>
 
             </div>
+            
+            <div class="panel-heading">UBICACION</div>
+            <div class="row-fluid">
+              <div class="span8">
+                <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=15+Springfield+Way,+Hythe,+CT21+5SH&aq=t&sll=52.8382,-2.327815&sspn=8.047465,13.666992&ie=UTF8&hq=&hnear=15+Springfield+Way,+Hythe+CT21+5SH,+United+Kingdom&t=m&z=14&ll=51.077429,1.121722&output=embed"></iframe>
+              </div>
 
+              <div class="span4">
+
+    		</address>
+              </div>
+            </div>
           
 
           </div>
@@ -368,7 +385,7 @@
             <div class="span12">
               <div class="" id="loginModal">
                 <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fas fa-times-circle"></i></button>
                  
                 </div>
                 <div class="modal-body">
@@ -406,15 +423,92 @@
       </div>
 
     </div>
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"  id="modalImg" >
+      <div class="modal-dialog modal-lg" role="document" >
+        <div class="modal-content" >
 
+          <div class="row">
+            <div class="span12">
+              <div class="" id="loginModal">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fas fa-times-circle"></i></button>
+                 
+                </div>
+                <div class="modal-body">
+                  <div class="well">
+                    <ul class="nav nav-tabs">
+                      <li class="active"><a href="#login" data-toggle="tab">IMAGEN</a></li>
+                     
+                    </ul>
+                    <div id="myTabContent" class="tab-content">
+                      <div class="tab-pane active in" id="login">
+                        <br>
+                        <div class="form-row">
+                          
+                          </div>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
+        </div>
+
+      </div>
+
+    </div>
+            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"  id="modalActos" >
+      <div class="modal-dialog modal-lg" role="document" >
+        <div class="modal-content" >
+
+          <div class="row">
+            <div class="span12">
+              <div class="" id="loginModal">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fas fa-times-circle"></i></button>
+                 
+                </div>
+                <div class="modal-body">
+                  <div class="well">
+                    <ul class="nav nav-tabs">
+                      <li class="active"><a href="#login" data-toggle="tab">ACTOS</a></li>
+                     
+                    </ul>
+                    <div id="myTabContent" class="tab-content">
+                      <div class="tab-pane active in" id="login">
+                        <br>
+                        <div class="form-row">
+                          
+                          </div>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
 <script>
 // Get the modal
   
 function modalOtros() {
    $("#tallModal").modal();
 }  
-
+function modalImg() {
+  $("#modalImg").modal();
+}
+  function modalActos() {
+  $("#modalActos").modal();
+}
 
 </script>
     </body

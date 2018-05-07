@@ -39,6 +39,19 @@
       overflow: hidden;
       /* Eliminamos errores de float */
     }
+    .modal-header {
+    min-height: 16.43px;
+    padding: 15px;
+    border-bottom: 0px solid #e5e5e5; */
+
+    }
+
+    @media (min-width: 1200px) {
+      .container {
+
+        width: 1800px;
+      }
+    }
 
     header .logo {
       color: #fcfcfc;
@@ -454,9 +467,9 @@
 
     </form>
     </div>
-  </body>
-  <script>
+    <script>
     $(document).ready(function() {
+      
       $('#datePicker')
         .datepicker({
           autoclose: true,
@@ -496,5 +509,7 @@
       });
     });
     //ocultar div
-    <
+    </script>
+  </body>
+  
     /html>
