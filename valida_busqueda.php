@@ -48,6 +48,7 @@
         // Browser doesn't support Geolocation
         handleLocationError(false, infoWindow, map.getCenter());
       }
+<<<<<<< HEAD
     }
 
     function handleLocationError(browserHasGeolocation, infoWindow, pos) {
@@ -107,9 +108,50 @@
           </ul>
         </nav>
       </div>
+=======
+      function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+        infoWindow.setPosition(pos);
+        infoWindow.setContent(browserHasGeolocation ?
+                              'Error: The Geolocation service failed.' :
+                              'Error: Your browser doesn\'t support geolocation.');
+	}
+</script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHdEhRbaKBIl8kNftDz5M3FOEFokUEFYQ&callback=initMap">
+</script>
+<!--ESTILOS-->
+<style>
+      /*MAPA*/
+
+  body{
+    background-color:#EFEFEF;
+  }
+  @media (min-width: 1200px){
+    .container {
+        width: 1700px;
+    }
+  }
+</style>
+<!-- HEADER -->
+<body >
+  <div class="container">
+
+    <div class="main">
+      <nav id="cbp-hrmenu" class="cbp-hrmenu">
+        <ul>
+          <li>
+            <a href="index.php">INICIO</a>
+          </li>
+          <li>
+            <a href="logout.php">SALIR</a>
+          </li>
+        </ul>
+      </nav>
+>>>>>>> 69e599e83f917b403f604c494c9680e62a8db832
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
+<<<<<<< HEAD
     <script>
       $(function() {
         cbpHorizontalMenu.init();
@@ -253,3 +295,50 @@
   </body>
 
   </html>
+=======
+  <script>
+    $(function() {
+      cbpHorizontalMenu.init();
+    });
+  </script>
+<br><br>
+<body >
+  <table class="table" style="padding:5px">
+
+       <!--Table head-->
+       <thead class="blue-grey darken-4">
+           <tr class="text-white">
+               <th>FOLIO</th>
+               <th>CLASIFICACIÓN</th>
+               <th>UBICACIÓN</th>
+           </tr>
+       </thead>
+       <!--Table head-->
+
+       <!--Table body-->
+       <tbody>
+           <tr>
+               <th scope="row">1</th>
+               <td>Mark</td>
+               <td>Otto</td>
+           </tr>
+           <tr>
+               <th scope="row">2</th>
+               <td>Mark</td>
+               <td>Otto</td>
+           </tr>
+           <tr>
+               <th scope="row">3</th>
+               <td>Mark</td>
+               <td>Otto</td>
+
+
+           </tr>
+       </tbody>
+       <!--Table body-->
+
+   </table>
+   <!--Table-->
+</body>
+</html>
+>>>>>>> 69e599e83f917b403f604c494c9680e62a8db832

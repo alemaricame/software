@@ -115,7 +115,7 @@
 
 @media (min-width: 1200px){
   .modal-lg {
-        
+
          width: 1400px;
      }
     }
@@ -367,10 +367,14 @@
 
               <div class="span4">
 
+<<<<<<< HEAD
     		</address>
               </div>
             </div>
           
+=======
+
+>>>>>>> 69e599e83f917b403f604c494c9680e62a8db832
 
           </div>
         </div>
@@ -385,8 +389,13 @@
             <div class="span12">
               <div class="" id="loginModal">
                 <div class="modal-header">
+<<<<<<< HEAD
                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fas fa-times-circle"></i></button>
                  
+=======
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+>>>>>>> 69e599e83f917b403f604c494c9680e62a8db832
                 </div>
                 <div class="modal-body">
                   <div class="well">
@@ -403,12 +412,12 @@
                       <div class="tab-pane active in" id="login">
                         <br>
                         <div class="form-row">
-                          
+
                           </div>
                       </div>
                       <div class="tab-pane fade" id="create">
                       <div class="form-row">
-                          
+
                           </div>
                       </div>
                     </div>
@@ -499,9 +508,10 @@
     </div>
 <script>
 // Get the modal
-  
+
 function modalOtros() {
    $("#tallModal").modal();
+<<<<<<< HEAD
 }  
 function modalImg() {
   $("#modalImg").modal();
@@ -509,6 +519,10 @@ function modalImg() {
   function modalActos() {
   $("#modalActos").modal();
 }
+=======
+}
+
+>>>>>>> 69e599e83f917b403f604c494c9680e62a8db832
 
 </script>
     </body

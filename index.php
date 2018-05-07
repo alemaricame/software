@@ -87,6 +87,12 @@
 	  transition: 0.2s ease;
 	  box-shadow:0 1px 6px 0 rgba(0,0,0,.12),0 1px 6px 0 rgba(0,0,0,.12);
 	  outline: none!important;}
+    @media (min-width: 1200px){
+      .container {
+          width: 1700px;
+      }
+    }
+
 	</style>
 	<body style="background-color:#EFEFEF;">
 		<div class="container">
